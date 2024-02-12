@@ -1,0 +1,60 @@
+@media (max-width: 376px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .whole {
+    margin: 0;
+  }
+  .background-desktop {
+    opacity: 0;
+    width: 0;
+    position: absolute;
+    overflow-x: hidden;
+  }
+  .background-mobile {
+    opacity: 1;
+    height: auto;
+    position: absolute;
+  }
+  .content {
+    width: 325px;
+    position: relative;
+    margin: 0;
+    top: 10rem;
+    left: 1.6rem;
+    grid-template-columns: 325px;
+    justify-content: left;
+    gap: 1rem;
+  }
+  .upload-bar {
+    width: 250px;
+  }
+  .gradient {
+    width: 200px;
+  }
+  .data {
+    width: 300px;
+    grid-template-columns: 100px 150px;
+  }
+  .circle {
+    left: 187px;
+  }
+  .storage {
+    margin: 0;
+  }
+  .notice {
+    top: 320px;
+    left: 75px;
+    border-radius: 11px;
+    width: 100px;
+  }
+
+  .bubble::after {
+    border: none;
+  }
+  .bold {
+    font-size: 25px;
+  }
+}
